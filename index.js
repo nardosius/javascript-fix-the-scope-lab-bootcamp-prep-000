@@ -18,10 +18,13 @@ function add2(n) {
   return n + two;
 }
 
-var funkyFunction = function() {
-  
-  return function() {
-    return "FUNKY!";
+var funkyFunction = function myFunction() {
+  var inner = "FUNKY!";
+ 
+  return function funk() {
+    var inaccessible = "Can't touch this!";
+    
+    return inner;
   }
  }
 
