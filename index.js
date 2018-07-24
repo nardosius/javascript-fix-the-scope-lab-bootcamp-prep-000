@@ -20,11 +20,10 @@ function add2(n) {
 
 var funkyFunction = function myFunction() {
   
- 
   return function funk() {
     var inaccessible = "Can't touch this!";
     
-    return inner;
+    return 'FUNKY!';
   }
  }
 
