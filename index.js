@@ -21,11 +21,10 @@ function add2(n) {
 var funkyFunction = function myFunction() {
   
   return function funk() {
-    var inaccessible = "Can't touch this!";
-    
     return 'FUNKY!';
   }
  }
+ 
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
